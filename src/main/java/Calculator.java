@@ -18,6 +18,8 @@ public class Calculator implements ICalculator {
 
         public void showResult(int result) {
             System.out.println("The result is: " + result);
+            System.out.println("This is a test");
+           
         }
 
         public enum Brightness {

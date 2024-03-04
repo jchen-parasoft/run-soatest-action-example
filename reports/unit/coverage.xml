@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Coverage ver="2" toolVer="2023.1.0" execEnv="win32_x86_64" hasViols="false" project="CICD_JavaProjectTemplate" buildId="CICD_JavaProjectTemplate-2024-03-04" climode="true" toolDispName="Jtest" prjModule="com.parasoft:project-with-default-package" toolId="jtest" machine="CD-jchen" tag="Unit Tests-com.parasoft:project-with-default-package-${scontrol_branch}-win32_x86_64" time="2024-03-04T16:05:38+08:00" id="1709879622975" lang="en_US" user="Jason" toolName="DTP Engine for Java">
+<Coverage ver="2" toolVer="2023.1.0" execEnv="win32_x86_64" hasViols="false" project="CICD_JavaProjectTemplate" buildId="CICD_JavaProjectTemplate-2024-03-04" climode="true" toolDispName="Jtest" prjModule="com.parasoft:project-with-default-package" toolId="jtest" machine="CD-jchen" tag="Unit Tests-com.parasoft:project-with-default-package-${scontrol_branch}-win32_x86_64" time="2024-03-04T17:13:59+08:00" id="1709883724477" lang="en_US" user="Jason" toolName="DTP Engine for Java">
 	<TestConfig machine="CD-jchen" pseudoUrl="builtin://Unit Tests" name="Unit Tests" user="Jason" />
 	<VersionInfos>
 		<VersionInfo id="LC" ver="1" />
 	</VersionInfos>
 	<Repositories />
 	<Locations>
-		<Loc locRef="1" projId="com.parasoft:project-with-default-package" covId="516238227,1495237307,-1072665781" sym=".Calculator:516238227;.Calculator$Screen:1495237307;.Calculator$Screen$Brightness:-1072665781" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/Calculator.java" uri="file:/D:/Workspace/git/parasoft-findings-plugin/work/workspace/cicd.findings.jtest.FunctionalTest/src/main/java/Calculator.java" projPath="/com.parasoft:project-with-default-package" hash="1741334343" />
+		<Loc locRef="1" projId="com.parasoft:project-with-default-package" covId="516238227,1495237309,-1072665779" sym=".Calculator:516238227;.Calculator$Screen:1495237309;.Calculator$Screen$Brightness:-1072665779" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/Calculator.java" uri="file:/D:/Workspace/git/parasoft-findings-plugin/work/workspace/cicd.findings.jtest.FunctionalTest/src/main/java/Calculator.java" projPath="/com.parasoft:project-with-default-package" hash="-784762794" />
 		<Loc locRef="2" projId="com.parasoft:project-with-default-package" covId="1022206551" sym="com.parasoft.Convertor:1022206551" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/Convertor.java" uri="file:/D:/Workspace/git/parasoft-findings-plugin/work/workspace/cicd.findings.jtest.FunctionalTest/src/main/java/com/parasoft/Convertor.java" projPath="/com.parasoft:project-with-default-package" hash="-662881149" />
 		<Loc locRef="3" projId="com.parasoft:project-with-default-package" covId="-563343909" sym="com.parasoft.another.Convertor:-563343909" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/another/Convertor.java" uri="file:/D:/Workspace/git/parasoft-findings-plugin/work/workspace/cicd.findings.jtest.FunctionalTest/src/main/java/com/parasoft/another/Convertor.java" projPath="/com.parasoft:project-with-default-package" hash="469181545" />
 		<Loc locRef="4" projId="com.parasoft:project-with-default-package" covId="1865579128" sym="com.parasoft.differentViolations.GenerateViolations:1865579128" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/differentViolations/GenerateViolations.java" uri="file:/D:/Workspace/git/parasoft-findings-plugin/work/workspace/cicd.findings.jtest.FunctionalTest/src/main/java/com/parasoft/differentViolations/GenerateViolations.java" projPath="/com.parasoft:project-with-default-package" hash="473374080" />
@@ -41,29 +41,29 @@
 				</Item>
 			</Stats>
 			<Static>
-				<StatCvg itemRef="8" elems="23 24" hashes="-619022508 -1760446347" />
+				<StatCvg itemRef="8" elems="25 26" hashes="-619022508 -1760446347" />
 				<StatCvg itemRef="5" elems="15 16 17" hashes="1528369737 320737896 1508372605" />
-				<StatCvg itemRef="9" elems="23" hashes="-619022508" />
+				<StatCvg itemRef="9" elems="25" hashes="-619022508" />
 				<StatCvg itemRef="2" elems="7 8 9" hashes="1928371266 1284531579 363132110" />
 				<StatCvg itemRef="3" elems="3 5" hashes="707665141 -2008629378" />
-				<StatCvg itemRef="10" elems="23" hashes="-619022508" />
-				<StatCvg itemRef="6" elems="20 21" hashes="-1397641892 1508372605" />
+				<StatCvg itemRef="10" elems="25" hashes="-619022508" />
+				<StatCvg itemRef="6" elems="20 21 23" hashes="-1397641892 -538486779 1508372605" />
 			</Static>
 			<Dynamic>
 				<DynCvg itemRef="8">
-					<CtxCvg testRefs="1" elemRefs="23 24" />
+					<CtxCvg testRefs="1" elemRefs="25 26" />
 				</DynCvg>
 				<DynCvg itemRef="5">
 					<CtxCvg testRefs="1 2" elemRefs="15 16 17" />
 				</DynCvg>
 				<DynCvg itemRef="9">
-					<CtxCvg testRefs="1" elemRefs="23" />
+					<CtxCvg testRefs="1" elemRefs="25" />
 				</DynCvg>
 				<DynCvg itemRef="10">
-					<CtxCvg testRefs="1" elemRefs="23" />
+					<CtxCvg testRefs="1" elemRefs="25" />
 				</DynCvg>
 				<DynCvg itemRef="6">
-					<CtxCvg testRefs="1" elemRefs="20 21" />
+					<CtxCvg testRefs="1" elemRefs="20 21 23" />
 				</DynCvg>
 				<DynCvg itemRef="2">
 					<CtxCvg testRefs="1" elemRefs="7 8 9" />

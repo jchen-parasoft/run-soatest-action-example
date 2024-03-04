@@ -226,7 +226,7 @@
     #exec_foldheader{cursor:pointer;cursor:hand ;}
     #paramsHeader {word-break:break-all;overflow: auto; padding: 3px;}
     </style><title>Jason
-- Static Analysis [ 0 / 428 / 50 ]
+- Static Analysis [ 0 / 421 / 50 ]
 
 </title><script language="JavaScript">
     var nwin;
@@ -968,11 +968,11 @@
 </tr>
 <tr>
 <td class="summary_cell" style="white-space: nowrap; vertical-align: baseline;"><b>Test Configuration:</b></td>
-<td class="summary_cell" style="word-break: break-word;">D:\Workspace\git\parasoft-findings-plugin\work\workspace\cicd.findings.jtest.FunctionalTest\.\jtest_settings.properties</td>
+<td class="summary_cell" style="word-break: break-word;">D:\Workspace\git\JavaProjectTemplate\.\jtest_settings.properties</td>
 </tr>
 <tr>
 <td class="summary_cell" style="white-space: nowrap; vertical-align: baseline;"><b>Started:</b></td>
-<td class="summary_cell">2024-03-04T16:29:12+08:00</td>
+<td class="summary_cell">2024-03-04T16:52:04+08:00</td>
 </tr>
 <tr>
 <td class="summary_cell" style="white-space: nowrap; vertical-align: baseline;"><b>Performed on:</b></td>
@@ -1035,7 +1035,7 @@
 <tr>
 <td align="left"><b>Findings</b>:
 
-428&nbsp;<a class="black_link" href="#cs_Jason"><b>total</b></a>,
+421&nbsp;<a class="black_link" href="#cs_Jason"><b>total</b></a>,
 &nbsp;0&nbsp;<b>suppressed</b></td>
 </tr>
 </table><br xmlns:textutil="textutil"><table xmlns:textutil="textutil" width="100%" cellpadding="0" cellspacing="0">
@@ -1070,7 +1070,20 @@
 <table class="doubleborder" width="100%" cellpadding="0" cellspacing="0">
 <tr>
 <td class="tree">&nbsp;
-[<b>7</b>]
+[<b>2</b>]
+&nbsp;&nbsp;<b>APSC_DV.001460 An application vulnerability assessment must be conducted.</b>&nbsp;<font class="gray">(APSC_DV.001460)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(APSC_DV.001460.SIO-2)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree">&nbsp;
+[<b>6</b>]
 &nbsp;&nbsp;<b>APSC_DV.003215 The application development team must follow a set of coding standards.</b>&nbsp;<font class="gray">(APSC_DV.003215)</font>&nbsp;
 </td>
 </tr>
@@ -1091,21 +1104,8 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>2</b>]
+[<b>1</b>]
 &nbsp;&nbsp;Enforce number of blank line(s) between major sections&nbsp;<font class="gray">(APSC_DV.003215.U2BL-3)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree">&nbsp;
-[<b>1</b>]
-&nbsp;&nbsp;<b>Possible Bugs</b>&nbsp;<font class="gray">(BD.PB)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-[<b>1</b>]
-&nbsp;&nbsp;Avoid unused values&nbsp;<font class="gray">(BD.PB.VOVR-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
@@ -1123,53 +1123,53 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>2</b>]
+[<b>1</b>]
 &nbsp;&nbsp;<b>OBJ05-J: Defensively copy private mutable class members before returning their references</b>&nbsp;<font class="gray">(CERT.OBJ05)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>2</b>]
+[<b>1</b>]
 &nbsp;&nbsp;Provide mutable classes with copy functionality&nbsp;<font class="gray">(CERT.OBJ05.MUCOP-1)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>3</b>]
+[<b>2</b>]
 &nbsp;&nbsp;<b>OBJ06-J: Defensively copy mutable inputs and mutable internal components</b>&nbsp;<font class="gray">(CERT.OBJ06)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>3</b>]
+[<b>2</b>]
 &nbsp;&nbsp;Provide mutable classes with copy functionality&nbsp;<font class="gray">(CERT.OBJ06.MUCOP-2)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>3</b>]
+[<b>4</b>]
 &nbsp;&nbsp;<b>OBJ07-J: Sensitive classes must not let themselves be copied</b>&nbsp;<font class="gray">(CERT.OBJ07)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>3</b>]
+[<b>4</b>]
 &nbsp;&nbsp;Make your classes noncloneable&nbsp;<font class="gray">(CERT.OBJ07.MCNC-2)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>3</b>]
+[<b>1</b>]
 &nbsp;&nbsp;<b>OBJ04-J: Provide mutable classes with copy functionality to safely allow passing instances to untrusted code</b>&nbsp;<font class="gray">(CERT.OBJ04)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>3</b>]
+[<b>1</b>]
 &nbsp;&nbsp;Provide mutable classes with copy functionality&nbsp;<font class="gray">(CERT.OBJ04.MUCOP-3)</font>&nbsp;
 </td>
 </tr>
@@ -1188,19 +1188,6 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>1</b>]
-&nbsp;&nbsp;<b>Bad Practice</b>&nbsp;<font class="gray">(CODSTA.BP)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-[<b>1</b>]
-&nbsp;&nbsp;Declare all formal parameters as "final"&nbsp;<font class="gray">(CODSTA.BP.FPF-3)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree">&nbsp;
 [<b>2</b>]
 &nbsp;&nbsp;<b>CWE-499: Serializable Class Containing Sensitive Data</b>&nbsp;<font class="gray">(CWE.499)</font>&nbsp;
 </td>
@@ -1214,20 +1201,33 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>1</b>]
-&nbsp;&nbsp;<b>CWE-563: Assignment to Variable without Use</b>&nbsp;<font class="gray">(CWE.563)</font>&nbsp;
+[<b>2</b>]
+&nbsp;&nbsp;<b>CWE-200: Exposure of Sensitive Information to an Unauthorized Actor</b>&nbsp;<font class="gray">(CWE.200)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>1</b>]
-&nbsp;&nbsp;Avoid unused values&nbsp;<font class="gray">(CWE.563.VOVR-3)</font>&nbsp;
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(CWE.200.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>8</b>]
+[<b>2</b>]
+&nbsp;&nbsp;<b>CWE-209: Generation of Error Message Containing Sensitive Information</b>&nbsp;<font class="gray">(CWE.209)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(CWE.209.SIO-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree">&nbsp;
+[<b>7</b>]
 &nbsp;&nbsp;<b>Formatting</b>&nbsp;<font class="gray">(FORMAT)</font>&nbsp;
 </td>
 </tr>
@@ -1241,7 +1241,7 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>3</b>]
+[<b>2</b>]
 &nbsp;&nbsp;Enforce number of blank line(s) before type declarations&nbsp;<font class="gray">(FORMAT.BLCD-3)</font>&nbsp;
 </td>
 </tr>
@@ -1254,15 +1254,8 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>3</b>]
+[<b>1</b>]
 &nbsp;&nbsp;<b>Internationalization</b>&nbsp;<font class="gray">(INTER)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-[<b>2</b>]
-&nbsp;&nbsp;Isolate translatable text in resource bundles in an Internationalized environment&nbsp;<font class="gray">(INTER.ITT-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
@@ -1274,55 +1267,80 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>4</b>]
-&nbsp;&nbsp;<b>Javadoc Comments</b>&nbsp;<font class="gray">(JAVADOC)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-[<b>2</b>]
-&nbsp;&nbsp;Always include a description of whether or not a method can return null in the Javadoc&nbsp;<font class="gray">(JAVADOC.CRN-3)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-[<b>1</b>]
-&nbsp;&nbsp;Provide Javadoc comments and descriptions for types&nbsp;<font class="gray">(JAVADOC.PJDC-3)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-[<b>1</b>]
-&nbsp;&nbsp;Provide Javadoc comments and descriptions for methods&nbsp;<font class="gray">(JAVADOC.PJDM-3)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree">&nbsp;
-[<b>4</b>]
+[<b>3</b>]
 &nbsp;&nbsp;<b>JUnit Test Case</b>&nbsp;<font class="gray">(JUNIT)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>4</b>]
+[<b>3</b>]
 &nbsp;&nbsp;Make sure all methods have at least one JUnit test method&nbsp;<font class="gray">(JUNIT.TEST-2)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>2</b>]
+[<b>1</b>]
 &nbsp;&nbsp;<b>Object Oriented Programming</b>&nbsp;<font class="gray">(OOP)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>2</b>]
+[<b>1</b>]
 &nbsp;&nbsp;Provide mutable classes with copy functionality&nbsp;<font class="gray">(OOP.MUCOP-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree">&nbsp;
+[<b>2</b>]
+&nbsp;&nbsp;<b>A6-Security Misconfiguration</b>&nbsp;<font class="gray">(OWASP2017.A6)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2017.A6.SIO-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree">&nbsp;
+[<b>2</b>]
+&nbsp;&nbsp;<b>API10-Insufficient Logging &amp; Monitoring</b>&nbsp;<font class="gray">(OWASP2019.API10)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2019.API10.SIO-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree">&nbsp;
+[<b>2</b>]
+&nbsp;&nbsp;<b>A5-Security Misconfiguration</b>&nbsp;<font class="gray">(OWASP2021.A5)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2021.A5.SIO-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree">&nbsp;
+[<b>2</b>]
+&nbsp;&nbsp;<b>6.5.5 Improper error handling</b>&nbsp;<font class="gray">(PCIDSS32.655)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(PCIDSS32.655.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
@@ -1334,15 +1352,21 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>3</b>]
+[<b>4</b>]
 &nbsp;&nbsp;Make your classes noncloneable&nbsp;<font class="gray">(SECURITY.WSC.MCNC-5)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree">&nbsp;
+[<b>2</b>]
+&nbsp;&nbsp;<b>Exposing Sensitive Data</b>&nbsp;<font class="gray">(SECURITY.ESD)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>1</b>]
-&nbsp;&nbsp;Make your classes nonserializeable&nbsp;<font class="gray">(SECURITY.WSC.SER-5)</font>&nbsp;
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(SECURITY.ESD.SIO-3)</font>&nbsp;
 </td>
 </tr>
 </table>
@@ -1355,32 +1379,39 @@
 <table width="100%" class="doubleborder" cellpadding="0" cellspacing="0">
 <tr>
 <td class="tree">&nbsp;
-[<b>2</b>]
+[<b>1</b>]
 &nbsp;&nbsp;<b>Severity&nbsp;1 - Highest</b></td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>2</b>]
+[<b>1</b>]
 &nbsp;&nbsp;Provide mutable classes with copy functionality&nbsp;<font class="gray">(CERT.OBJ05.MUCOP-1)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>13</b>]
+[<b>14</b>]
 &nbsp;&nbsp;<b>Severity&nbsp;2 - High</b></td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>3</b>]
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(APSC_DV.001460.SIO-2)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
 &nbsp;&nbsp;Provide mutable classes with copy functionality&nbsp;<font class="gray">(CERT.OBJ06.MUCOP-2)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>3</b>]
+[<b>4</b>]
 &nbsp;&nbsp;Make your classes noncloneable&nbsp;<font class="gray">(CERT.OBJ07.MCNC-2)</font>&nbsp;
 </td>
 </tr>
@@ -1394,7 +1425,7 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>4</b>]
+[<b>3</b>]
 &nbsp;&nbsp;Make sure all methods have at least one JUnit test method&nbsp;<font class="gray">(JUNIT.TEST-2)</font>&nbsp;
 </td>
 </tr>
@@ -1420,15 +1451,8 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>2</b>]
-&nbsp;&nbsp;Enforce number of blank line(s) between major sections&nbsp;<font class="gray">(APSC_DV.003215.U2BL-3)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 [<b>1</b>]
-&nbsp;&nbsp;Avoid unused values&nbsp;<font class="gray">(BD.PB.VOVR-3)</font>&nbsp;
+&nbsp;&nbsp;Enforce number of blank line(s) between major sections&nbsp;<font class="gray">(APSC_DV.003215.U2BL-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
@@ -1441,7 +1465,7 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>3</b>]
+[<b>1</b>]
 &nbsp;&nbsp;Provide mutable classes with copy functionality&nbsp;<font class="gray">(CERT.OBJ04.MUCOP-3)</font>&nbsp;
 </td>
 </tr>
@@ -1455,21 +1479,21 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>1</b>]
-&nbsp;&nbsp;Declare all formal parameters as "final"&nbsp;<font class="gray">(CODSTA.BP.FPF-3)</font>&nbsp;
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(CWE.200.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>1</b>]
-&nbsp;&nbsp;Avoid unused values&nbsp;<font class="gray">(CWE.563.VOVR-3)</font>&nbsp;
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(CWE.209.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>3</b>]
+[<b>2</b>]
 &nbsp;&nbsp;Enforce number of blank line(s) before type declarations&nbsp;<font class="gray">(FORMAT.BLCD-3)</font>&nbsp;
 </td>
 </tr>
@@ -1483,36 +1507,43 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>2</b>]
-&nbsp;&nbsp;Isolate translatable text in resource bundles in an Internationalized environment&nbsp;<font class="gray">(INTER.ITT-3)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-[<b>2</b>]
-&nbsp;&nbsp;Always include a description of whether or not a method can return null in the Javadoc&nbsp;<font class="gray">(JAVADOC.CRN-3)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 [<b>1</b>]
-&nbsp;&nbsp;Provide Javadoc comments and descriptions for types&nbsp;<font class="gray">(JAVADOC.PJDC-3)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-[<b>1</b>]
-&nbsp;&nbsp;Provide Javadoc comments and descriptions for methods&nbsp;<font class="gray">(JAVADOC.PJDM-3)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-[<b>2</b>]
 &nbsp;&nbsp;Provide mutable classes with copy functionality&nbsp;<font class="gray">(OOP.MUCOP-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2017.A6.SIO-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2019.API10.SIO-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2021.A5.SIO-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(PCIDSS32.655.SIO-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>2</b>]
+&nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(SECURITY.ESD.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
@@ -1537,15 +1568,8 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>3</b>]
+[<b>4</b>]
 &nbsp;&nbsp;Make your classes noncloneable&nbsp;<font class="gray">(SECURITY.WSC.MCNC-5)</font>&nbsp;
-</td>
-</tr>
-<tr>
-<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-[<b>1</b>]
-&nbsp;&nbsp;Make your classes nonserializeable&nbsp;<font class="gray">(SECURITY.WSC.SER-5)</font>&nbsp;
 </td>
 </tr>
 </table>
@@ -1573,7 +1597,7 @@
 <td colspan="3" align="left">
 <table width="100%" bgcolor="#FFFFFF" class="doubleborder" cellpadding="0" cellspacing="0">
 <tr>
-<td style="padding-right:10px;padding-left:10px" colspan="4" class="tree"><b>/com.parasoft:project-with-default-package/src/main/java/com/parasoft/Convertor.java</b></td>
+<td style="padding-right:10px;padding-left:10px" colspan="4" class="tree"><b>/com.parasoft:project-with-default-package/src/main/java/Calculator.java</b></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -1591,21 +1615,14 @@
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">5:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Use 2 blank lines before type declaration</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">FORMAT.BLCD-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">5:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">3:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">'clone()' method is missing</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">SECURITY.WSC.MCNC-5</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">5:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">3:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">'clone()' method is missing</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CERT.OBJ07.MCNC-2</font></td>
@@ -1614,15 +1631,134 @@
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">No JUnit test method defined for 'convertToString()'</span></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">No JUnit test method defined for 'add()'</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">JUNIT.TEST-2</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">11:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">12:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">No JUnit test method defined for 'name()'</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">JUNIT.TEST-2</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">'clone()' method is missing</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">SECURITY.WSC.MCNC-5</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">12:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">'clone()' method is missing</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CERT.OBJ07.MCNC-2</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">20:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.200.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">20:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.209.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">20:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">OWASP2017.A6.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">20:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">OWASP2019.API10.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">20:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">OWASP2021.A5.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">20:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">PCIDSS32.655.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">20:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">SECURITY.ESD.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">20:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">APSC_DV.001460.SIO-2</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.200.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.209.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">OWASP2017.A6.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">OWASP2019.API10.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">OWASP2021.A5.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">PCIDSS32.655.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">SECURITY.ESD.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">APSC_DV.001460.SIO-2</font></td>
 </tr>
 <tr>
 <td style="padding-right:10px;padding-left:10px" colspan="4" class="tree"><b>/com.parasoft:project-with-default-package/src/main/java/com/parasoft/another/Convertor.java</b></td>
@@ -1671,6 +1807,13 @@
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">5:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">'writeObject()' method is missing</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.499.SER-5</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Use 1 blank line before every method declaration (or corresponding Javadoc)</span></td>
@@ -1692,20 +1835,6 @@
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">The method 'convertToString' does not have a Javadoc comment describing whether or not the method can return null</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">JAVADOC.CRN-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Formal parameter 'a' is not declared as final</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CODSTA.BP.FPF-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">7:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Concatenating strings</span></td>
@@ -1720,24 +1849,10 @@
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">7:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Non internationalized string: "parasoftcn: "</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">INTER.ITT-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">11:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">No JUnit test method defined for 'name()'</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">JUNIT.TEST-2</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">12:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Non internationalized string: "number to string convertor"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">INTER.ITT-3</font></td>
 </tr>
 <tr>
 <td style="padding-right:10px;padding-left:10px" colspan="4" class="tree"><b>/com.parasoft:project-with-default-package/src/main/java/com/parasoft/differentViolations/GenerateViolations.java</b></td>
@@ -1781,89 +1896,10 @@
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">4:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Static creation method missing</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CERT.OBJ04.MUCOP-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">4:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Static creation method missing</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">OOP.MUCOP-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">4:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Static creation method missing</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CERT.OBJ05.MUCOP-1</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">4:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Copy constructor missing</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CERT.OBJ06.MUCOP-2</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">4:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Copy constructor missing</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CERT.OBJ04.MUCOP-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">4:</font>&nbsp;
-</td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">'writeObject()' method is missing</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.499.SER-5</font></td>
 </tr>
-<tr id="authViolId890H" style="cursor:pointer" onclick="javascript:expandViolaion('authViolId890H','authViolId890', '0')">
-<td width="1%" align="right" class="tree">&nbsp;<font class="gray"><span>+</span></font>&nbsp;
-</td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">8:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Value of "map1" is never used</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">BD.PB.VOVR-3</font></td>
-</tr>
-<tr id="authViolId890" style="display:none">
-<td bgcolor="#F5F5F5" style="padding-left:10px" class="tree">&nbsp;</td>
-<!--bd_legend_required_marker-->
-<td bgcolor="#F5F5F5"></td>
-<td bgcolor="#F5F5F5" style="padding-right:10px;" colspan="2">
-<table width="100%" style="table-layout:fixed">
-<tr>
-<td><pre class="tree" wrap="wrap"><font color="#1569C7"><b>Point where value is declared</b>
-</font><font color="#B71C1C"><b>Point where value is declared</b>&nbsp;
-</font><font color="#B71C1C">GenerateViolations.java&nbsp;(8):&nbsp;</font><font color="black">Map map1 = map;</font><font color="green"></font><font color="green"></font></pre></td>
-</tr>
-</table>
-</td>
-</tr>
-<tr id="authViolId891H" style="cursor:pointer" onclick="javascript:expandViolaion('authViolId891H','authViolId891', '0')">
-<td width="1%" align="right" class="tree">&nbsp;<font class="gray"><span>+</span></font>&nbsp;
-</td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">8:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Value of "map1" is never used</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.563.VOVR-3</font></td>
-</tr>
-<tr id="authViolId891" style="display:none">
-<td bgcolor="#F5F5F5" style="padding-left:10px" class="tree">&nbsp;</td>
-<!--bd_legend_required_marker-->
-<td bgcolor="#F5F5F5"></td>
-<td bgcolor="#F5F5F5" style="padding-right:10px;" colspan="2">
-<table width="100%" style="table-layout:fixed">
-<tr>
-<td><pre class="tree" wrap="wrap"><font color="#1569C7"><b>Point where value is declared</b>
-</font><font color="#B71C1C"><b>Point where value is declared</b>&nbsp;
-</font><font color="#B71C1C">GenerateViolations.java&nbsp;(8):&nbsp;</font><font color="black">Map map1 = map;</font><font color="green"></font><font color="green"></font></pre></td>
-</tr>
-</table>
-</td>
-</tr>
-<tr id="authViolId892H" style="cursor:pointer" onclick="javascript:expandViolaion('authViolId892H','authViolId892', '0')">
+<tr id="authViolId884H" style="cursor:pointer" onclick="javascript:expandViolaion('authViolId884H','authViolId884', '0')">
 <td width="1%" align="right" class="tree">&nbsp;<font class="gray"><span>+</span></font>&nbsp;
 </td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">9:</font>&nbsp;
@@ -1871,7 +1907,7 @@
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Duplicated string literal: "string literal"</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CDD.DUPS-3</font></td>
 </tr>
-<tr id="authViolId892" style="display:none">
+<tr id="authViolId884" style="display:none">
 <td bgcolor="#F5F5F5" style="padding-left:10px" class="tree">&nbsp;</td>
 <td bgcolor="#F5F5F5"></td>
 <td bgcolor="#F5F5F5" style="padding-right:10px" colspan="2" class="tree"><pre style="margin:0px;">[Line 9] Duplicated string literal in file 'GenerateViolations.java'
@@ -1927,52 +1963,10 @@
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">3:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Missing Javadoc comment for 'IConvertor'</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">JAVADOC.PJDC-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">3:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">'writeObject()' method is missing</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">SECURITY.WSC.SER-5</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">3:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">'writeObject()' method is missing</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.499.SER-5</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">4:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Use 1 blank line before every method declaration (or corresponding Javadoc)</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">FORMAT.U2BL-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">4:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Use 1 blank line before every method declaration (or corresponding Javadoc)</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">APSC_DV.003215.U2BL-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">4:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">The method 'name' does not have a Javadoc comment describing whether or not the method can return null</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">JAVADOC.CRN-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">4:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Missing Javadoc comment for method 'name()'</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">JAVADOC.PJDM-3</font></td>
 </tr>
 </table>
 </td>
@@ -2013,20 +2007,20 @@
 <table class="doubleborder" width="100%" cellpadding="0" cellspacing="0">
 <tr>
 <td class="tree">&nbsp;
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;<b>APSC_DV.001460 An application vulnerability assessment must be conducted.</b>&nbsp;<font class="gray">(APSC_DV.001460)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(APSC_DV.001460.SIO-2)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>36</b>]
+[<b>37</b>]
 &nbsp;&nbsp;<b>APSC_DV.003215 The application development team must follow a set of coding standards.</b>&nbsp;<font class="gray">(APSC_DV.003215)</font>&nbsp;
 </td>
 </tr>
@@ -2049,6 +2043,13 @@
 
 [<b>7</b>]
 &nbsp;&nbsp;Include a meaningful file header comment in every source file&nbsp;<font class="gray">(APSC_DV.003215.MCH-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>1</b>]
+&nbsp;&nbsp;Make sure all files are terminated with a newline character&nbsp;<font class="gray">(APSC_DV.003215.TNL-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
@@ -2272,14 +2273,14 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>9</b>]
+[<b>3</b>]
 &nbsp;&nbsp;<b>CWE-749: Exposed Dangerous Method or Function</b>&nbsp;<font class="gray">(CWE.749)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>9</b>]
+[<b>3</b>]
 &nbsp;&nbsp;Declare "public/protected" methods as inaccessible as possible&nbsp;<font class="gray">(CWE.749.DPPM-4)</font>&nbsp;
 </td>
 </tr>
@@ -2311,14 +2312,14 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;<b>CWE-200: Exposure of Sensitive Information to an Unauthorized Actor</b>&nbsp;<font class="gray">(CWE.200)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(CWE.200.SIO-3)</font>&nbsp;
 </td>
 </tr>
@@ -2344,14 +2345,14 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;<b>CWE-209: Generation of Error Message Containing Sensitive Information</b>&nbsp;<font class="gray">(CWE.209)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(CWE.209.SIO-3)</font>&nbsp;
 </td>
 </tr>
@@ -2370,7 +2371,7 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>36</b>]
+[<b>37</b>]
 &nbsp;&nbsp;<b>Formatting</b>&nbsp;<font class="gray">(FORMAT)</font>&nbsp;
 </td>
 </tr>
@@ -2398,13 +2399,20 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+[<b>1</b>]
+&nbsp;&nbsp;Make sure all files are terminated with a newline character&nbsp;<font class="gray">(FORMAT.TNL-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 [<b>15</b>]
 &nbsp;&nbsp;Enforce number of blank line(s) between major sections&nbsp;<font class="gray">(FORMAT.U2BL-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>37</b>]
+[<b>26</b>]
 &nbsp;&nbsp;<b>Global Static Analysis</b>&nbsp;<font class="gray">(GLOBAL)</font>&nbsp;
 </td>
 </tr>
@@ -2418,14 +2426,14 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>9</b>]
+[<b>5</b>]
 &nbsp;&nbsp;Declare "public/protected" types as inaccessible as possible&nbsp;<font class="gray">(GLOBAL.DPPC-4)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>9</b>]
+[<b>3</b>]
 &nbsp;&nbsp;Declare "public/protected" methods as inaccessible as possible&nbsp;<font class="gray">(GLOBAL.DPPM-4)</font>&nbsp;
 </td>
 </tr>
@@ -2439,28 +2447,28 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>1</b>]
+[<b>5</b>]
 &nbsp;&nbsp;Avoid globally unused "public/protected" types&nbsp;<font class="gray">(GLOBAL.UPPC-4)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>1</b>]
+[<b>7</b>]
 &nbsp;&nbsp;Avoid globally unused "public/protected" methods&nbsp;<font class="gray">(GLOBAL.UPPM-4)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>6</b>]
+[<b>2</b>]
 &nbsp;&nbsp;Declare a "public/protected" "class" "final" if it is not subclassed&nbsp;<font class="gray">(GLOBAL.SPPC-5)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>8</b>]
+[<b>1</b>]
 &nbsp;&nbsp;Declare a "public/protected" method "final" if it is not overridden&nbsp;<font class="gray">(GLOBAL.SPPM-5)</font>&nbsp;
 </td>
 </tr>
@@ -2681,27 +2689,27 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;<b>A6-Security Misconfiguration</b>&nbsp;<font class="gray">(OWASP2017.A6)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2017.A6.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;<b>API10-Insufficient Logging &amp; Monitoring</b>&nbsp;<font class="gray">(OWASP2019.API10)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2019.API10.SIO-3)</font>&nbsp;
 </td>
 </tr>
@@ -2720,27 +2728,27 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;<b>A5-Security Misconfiguration</b>&nbsp;<font class="gray">(OWASP2021.A5)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2021.A5.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;<b>6.5.5 Improper error handling</b>&nbsp;<font class="gray">(PCIDSS32.655)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(PCIDSS32.655.SIO-3)</font>&nbsp;
 </td>
 </tr>
@@ -2801,14 +2809,14 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;<b>Exposing Sensitive Data</b>&nbsp;<font class="gray">(SECURITY.ESD)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(SECURITY.ESD.SIO-3)</font>&nbsp;
 </td>
 </tr>
@@ -2847,13 +2855,13 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>42</b>]
+[<b>43</b>]
 &nbsp;&nbsp;<b>Severity&nbsp;2 - High</b></td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(APSC_DV.001460.SIO-2)</font>&nbsp;
 </td>
 </tr>
@@ -2894,7 +2902,7 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>248</b>]
+[<b>257</b>]
 &nbsp;&nbsp;<b>Severity&nbsp;3 - Medium</b></td>
 </tr>
 <tr>
@@ -2916,6 +2924,13 @@
 
 [<b>7</b>]
 &nbsp;&nbsp;Include a meaningful file header comment in every source file&nbsp;<font class="gray">(APSC_DV.003215.MCH-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>1</b>]
+&nbsp;&nbsp;Make sure all files are terminated with a newline character&nbsp;<font class="gray">(APSC_DV.003215.TNL-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
@@ -3026,14 +3041,14 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(CWE.200.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(CWE.209.SIO-3)</font>&nbsp;
 </td>
 </tr>
@@ -3077,6 +3092,13 @@
 
 [<b>2</b>]
 &nbsp;&nbsp;Enforce number of space(s) for indentation&nbsp;<font class="gray">(FORMAT.IND-3)</font>&nbsp;
+</td>
+</tr>
+<tr>
+<td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<b>1</b>]
+&nbsp;&nbsp;Make sure all files are terminated with a newline character&nbsp;<font class="gray">(FORMAT.TNL-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
@@ -3201,35 +3223,35 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2017.A6.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2019.API10.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(OWASP2021.A5.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(PCIDSS32.655.SIO-3)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>7</b>]
+[<b>8</b>]
 &nbsp;&nbsp;Avoid calling print methods of 'System.err' or 'System.out'&nbsp;<font class="gray">(SECURITY.ESD.SIO-3)</font>&nbsp;
 </td>
 </tr>
@@ -3256,7 +3278,7 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>70</b>]
+[<b>64</b>]
 &nbsp;&nbsp;<b>Severity&nbsp;4 - Low</b></td>
 </tr>
 <tr>
@@ -3269,21 +3291,21 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>9</b>]
+[<b>3</b>]
 &nbsp;&nbsp;Declare "public/protected" methods as inaccessible as possible&nbsp;<font class="gray">(CWE.749.DPPM-4)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>9</b>]
+[<b>5</b>]
 &nbsp;&nbsp;Declare "public/protected" types as inaccessible as possible&nbsp;<font class="gray">(GLOBAL.DPPC-4)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>9</b>]
+[<b>3</b>]
 &nbsp;&nbsp;Declare "public/protected" methods as inaccessible as possible&nbsp;<font class="gray">(GLOBAL.DPPM-4)</font>&nbsp;
 </td>
 </tr>
@@ -3297,14 +3319,14 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>1</b>]
+[<b>5</b>]
 &nbsp;&nbsp;Avoid globally unused "public/protected" types&nbsp;<font class="gray">(GLOBAL.UPPC-4)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>1</b>]
+[<b>7</b>]
 &nbsp;&nbsp;Avoid globally unused "public/protected" methods&nbsp;<font class="gray">(GLOBAL.UPPM-4)</font>&nbsp;
 </td>
 </tr>
@@ -3352,7 +3374,7 @@
 </tr>
 <tr>
 <td class="tree">&nbsp;
-[<b>65</b>]
+[<b>54</b>]
 &nbsp;&nbsp;<b>Severity&nbsp;5 - Lowest</b></td>
 </tr>
 <tr>
@@ -3379,14 +3401,14 @@
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>6</b>]
+[<b>2</b>]
 &nbsp;&nbsp;Declare a "public/protected" "class" "final" if it is not subclassed&nbsp;<font class="gray">(GLOBAL.SPPC-5)</font>&nbsp;
 </td>
 </tr>
 <tr>
 <td class="tree_node">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[<b>8</b>]
+[<b>1</b>]
 &nbsp;&nbsp;Declare a "public/protected" method "final" if it is not overridden&nbsp;<font class="gray">(GLOBAL.SPPM-5)</font>&nbsp;
 </td>
 </tr>
@@ -3440,7 +3462,7 @@
 <tr>
 <td xmlns:authors="authors" style="padding-left:20px;" colspan="2" align="left" nowrap class="tree"><a name="cs_dev1"></a><b>Jason</b>&nbsp;&nbsp;Total Findings
 :
-&nbsp;428
+&nbsp;421
 </td>
 <td xmlns:authors="authors" align="right" class="tree"><a class="blue_link" href="#top">Back to Top </a>&nbsp;&nbsp;&nbsp;
 </td>
@@ -3519,8 +3541,8 @@
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">3:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Class 'Calculator' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPC-4</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" class: Calculator</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPC-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -3542,13 +3564,6 @@
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">'writeObject()' method is missing</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.499.SER-5</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">3:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Class 'Calculator' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPC-5</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -3638,22 +3653,8 @@
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'add()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'add()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.749.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'add()' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPM-5</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" method: add()</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPM-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -4043,88 +4044,158 @@ field 'screen' at line 5</span></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">23:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.200.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.209.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">OWASP2017.A6.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">OWASP2019.API10.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">OWASP2021.A5.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">PCIDSS32.655.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">SECURITY.ESD.SIO-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">21:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Make sure 'System.out.println' is not a leftover debug statement</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">APSC_DV.001460.SIO-2</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">25:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Use 2 blank lines before type declaration</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">FORMAT.BLCD-3</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">23:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">25:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Use 2 blank lines before type declaration</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">APSC_DV.003215.BLCD-3</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">23:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">25:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Elements in 'Screen' not ordered appropriately, first violation: member enum declaration 'Brightness' at line 23 should be
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Elements in 'Screen' not ordered appropriately, first violation: member enum declaration 'Brightness' at line 25 should be
 placed before field 'brightness' at line 13</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CODSTA.ORG.FO-3</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">23:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">25:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Missing Javadoc comment for 'Brightness'</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">JAVADOC.PJDC-3</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">23:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">25:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Enum 'Calculator.Screen.Brightness' should be declared "private"</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPC-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">23:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">25:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">'Brightness' is an expensive enum declaration</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">MOBILE.ENUM-3</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">24:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">26:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Use 1 blank line before every enum constant declaration (or corresponding Javadoc)</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">FORMAT.U2BL-3</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">24:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">26:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Use 1 blank line before every enum constant declaration (or corresponding Javadoc)</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">APSC_DV.003215.U2BL-3</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">24:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">26:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Use 1 blank line before every declaration of the same kind (or corresponding Javadoc)</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">FORMAT.U2BL-3</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">24:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">26:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Use 1 blank line before every declaration of the same kind (or corresponding Javadoc)</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">APSC_DV.003215.U2BL-3</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">24:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">26:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Enum constant not directly used: HIGH</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UEC-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">24:</font>&nbsp;
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">26:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Enum constant not directly used: LOW</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UEC-4</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">29:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">File should be terminated by a newline character</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">FORMAT.TNL-3</font></td>
+</tr>
+<tr>
+<td width="1%" align="right" class="tree"></td>
+<td width="2%" align="right" valign="top" class="tree"><font class="gray">29:</font>&nbsp;
+</td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">File should be terminated by a newline character</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">APSC_DV.003215.TNL-3</font></td>
 </tr>
 <tr>
 <td style="padding-right:10px;padding-left:10px" colspan="4" class="tree"><b>/com.parasoft:project-with-default-package/src/main/java/com/parasoft/Convertor.java</b></td>
@@ -4182,8 +4253,8 @@ placed before field 'brightness' at line 13</span></td>
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">5:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Class 'com.parasoft.Convertor' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPC-4</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" class: com.parasoft.Convertor</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPC-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -4205,13 +4276,6 @@ placed before field 'brightness' at line 13</span></td>
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">'writeObject()' method is missing</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.499.SER-5</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">5:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Class 'com.parasoft.Convertor' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPC-5</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -4280,22 +4344,8 @@ placed before field 'brightness' at line 13</span></td>
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'convertToString()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'convertToString()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.749.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'convertToString()' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPM-5</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" method: convertToString()</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPM-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -4451,8 +4501,8 @@ placed before field 'brightness' at line 13</span></td>
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">5:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Class 'com.parasoft.another.Convertor' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPC-4</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" class: com.parasoft.another.Convertor</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPC-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -4474,13 +4524,6 @@ placed before field 'brightness' at line 13</span></td>
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">'writeObject()' method is missing</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.499.SER-5</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">5:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Class 'com.parasoft.another.Convertor' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPC-5</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -4549,22 +4592,8 @@ placed before field 'brightness' at line 13</span></td>
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'convertToString()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'convertToString()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.749.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'convertToString()' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPM-5</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" method: convertToString()</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPM-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -4649,13 +4678,6 @@ placed before field 'brightness' at line 13</span></td>
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Missing Javadoc comment for method 'name()'</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">JAVADOC.PJDM-3</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">11:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'name()' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPM-5</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -4947,7 +4969,7 @@ placed before field 'brightness' at line 13</span></td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" method: generateViolations()</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPM-4</font></td>
 </tr>
-<tr id="authViolId1117H" style="cursor:pointer" onclick="javascript:expandViolaion('authViolId1117H','authViolId1117', '0')">
+<tr id="authViolId1103H" style="cursor:pointer" onclick="javascript:expandViolaion('authViolId1103H','authViolId1103', '0')">
 <td width="1%" align="right" class="tree">&nbsp;<font class="gray"><span>+</span></font>&nbsp;
 </td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">8:</font>&nbsp;
@@ -4955,7 +4977,7 @@ placed before field 'brightness' at line 13</span></td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Value of "map1" is never used</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">BD.PB.VOVR-3</font></td>
 </tr>
-<tr id="authViolId1117" style="display:none">
+<tr id="authViolId1103" style="display:none">
 <td bgcolor="#F5F5F5" style="padding-left:10px" class="tree">&nbsp;</td>
 <!--bd_legend_required_marker-->
 <td bgcolor="#F5F5F5"></td>
@@ -4969,7 +4991,7 @@ placed before field 'brightness' at line 13</span></td>
 </table>
 </td>
 </tr>
-<tr id="authViolId1118H" style="cursor:pointer" onclick="javascript:expandViolaion('authViolId1118H','authViolId1118', '0')">
+<tr id="authViolId1104H" style="cursor:pointer" onclick="javascript:expandViolaion('authViolId1104H','authViolId1104', '0')">
 <td width="1%" align="right" class="tree">&nbsp;<font class="gray"><span>+</span></font>&nbsp;
 </td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">8:</font>&nbsp;
@@ -4977,7 +4999,7 @@ placed before field 'brightness' at line 13</span></td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Value of "map1" is never used</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.563.VOVR-3</font></td>
 </tr>
-<tr id="authViolId1118" style="display:none">
+<tr id="authViolId1104" style="display:none">
 <td bgcolor="#F5F5F5" style="padding-left:10px" class="tree">&nbsp;</td>
 <!--bd_legend_required_marker-->
 <td bgcolor="#F5F5F5"></td>
@@ -5089,7 +5111,7 @@ placed before field 'brightness' at line 13</span></td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">field 'out' is used multiple times</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">MOBILE.ACFM-3</font></td>
 </tr>
-<tr id="authViolId1133H" style="cursor:pointer" onclick="javascript:expandViolaion('authViolId1133H','authViolId1133', '0')">
+<tr id="authViolId1119H" style="cursor:pointer" onclick="javascript:expandViolaion('authViolId1119H','authViolId1119', '0')">
 <td width="1%" align="right" class="tree">&nbsp;<font class="gray"><span>+</span></font>&nbsp;
 </td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">9:</font>&nbsp;
@@ -5097,7 +5119,7 @@ placed before field 'brightness' at line 13</span></td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Duplicated string literal: "string literal"</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CDD.DUPS-3</font></td>
 </tr>
-<tr id="authViolId1133" style="display:none">
+<tr id="authViolId1119" style="display:none">
 <td bgcolor="#F5F5F5" style="padding-left:10px" class="tree">&nbsp;</td>
 <td bgcolor="#F5F5F5"></td>
 <td bgcolor="#F5F5F5" style="padding-right:10px" colspan="2" class="tree"><pre style="margin:0px;">[Line 9] Duplicated string literal in file 'GenerateViolations.java'
@@ -5665,8 +5687,8 @@ placed before field 'brightness' at line 13</span></td>
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Class 'com.parasoft.nested.PhoneFactory' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPC-4</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" class: com.parasoft.nested.PhoneFactory</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPC-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -5688,13 +5710,6 @@ placed before field 'brightness' at line 13</span></td>
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">'writeObject()' method is missing</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.499.SER-5</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">6:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Class 'com.parasoft.nested.PhoneFactory' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPC-5</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -5742,15 +5757,8 @@ placed before field 'brightness' at line 13</span></td>
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">8:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'getIphone4()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">8:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'getIphone4()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.749.DPPM-4</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" method: getIphone4()</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPM-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -5806,7 +5814,7 @@ placed before method 'getIphone4' at line 8</span></td>
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">12:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Enum 'com.parasoft.nested.PhoneFactory.Brand' should be declared "package-private"</span></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Enum 'com.parasoft.nested.PhoneFactory.Brand' should be declared "private"</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPC-4</font></td>
 </tr>
 <tr>
@@ -6002,7 +6010,7 @@ placed before method 'getIphone4' at line 8</span></td>
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">20:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Class 'com.parasoft.nested.PhoneFactory.Phone' should be declared "package-private"</span></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Class 'com.parasoft.nested.PhoneFactory.Phone' should be declared "private"</span></td>
 <td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPC-4</font></td>
 </tr>
 <tr>
@@ -6371,13 +6379,6 @@ placed before method 'getIphone4' at line 8</span></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">38:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'toString()' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPM-5</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">39:</font>&nbsp;
 </td>
 <td valign="top" class="tree"><span style="white-space: pre-wrap;">Concatenating strings</span></td>
@@ -6450,22 +6451,8 @@ placed before method 'getIphone4' at line 8</span></td>
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">42:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'getName()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">42:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'getName()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.749.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">42:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'getName()' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPM-5</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" method: getName()</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPM-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
@@ -6492,22 +6479,8 @@ placed before method 'getIphone4' at line 8</span></td>
 <td width="1%" align="right" class="tree"></td>
 <td width="2%" align="right" valign="top" class="tree"><font class="gray">46:</font>&nbsp;
 </td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'getBrand()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">46:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'getBrand()' should be declared "package-private"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">CWE.749.DPPM-4</font></td>
-</tr>
-<tr>
-<td width="1%" align="right" class="tree"></td>
-<td width="2%" align="right" valign="top" class="tree"><font class="gray">46:</font>&nbsp;
-</td>
-<td valign="top" class="tree"><span style="white-space: pre-wrap;">Method 'getBrand()' should be declared "final"</span></td>
-<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.SPPM-5</font></td>
+<td valign="top" class="tree"><span style="white-space: pre-wrap;">Globally unused "public" method: getBrand()</span></td>
+<td style="white-space: nowrap; padding-right:10px;" align="right" valign="top" class="tree"><font class="gray">GLOBAL.UPPM-4</font></td>
 </tr>
 <tr>
 <td width="1%" align="right" class="tree"></td>
