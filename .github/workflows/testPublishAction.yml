@@ -30,7 +30,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
-      - name: Publish Test Report
-        uses: mikepenz/action-junit-report@v4
+      - name: Test Report
+        uses: phoenix-actions/test-reporting@v8
+        id: test-report               # Set ID reference for step
         with:
-          report_paths: 'reports/unit/XML_STATIC_AND_SOATEST-xml-junit.xml'
+          name: JEST Tests            # Name of the check run which will be created
+          path: reports/unit/XML_STATIC_AND_SOATEST-xml-junit.xml    # Path to test results
+          reporter: jest-junit        # Format of test results
