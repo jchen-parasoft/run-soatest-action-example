@@ -22,7 +22,7 @@ jobs:
       actions: read
       contents: read
 
-      # Specifies the type of runner that the job will run on.
+    # Specifies the type of runner that the job will run on. eg: ubuntu-latest, windows-latest
     runs-on: self-hosted
   
     # Steps represent a sequence of tasks that will be executed as part of the job.
