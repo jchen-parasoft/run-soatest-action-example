@@ -13,8 +13,9 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 jobs:
-  Analyze_project_with_Jtest:
-
+  build:
+    # the name of the job
+    name: Analyze project with Jtest 
     permissions:
       # required for all workflows
       security-events: write
@@ -44,8 +45,10 @@ jobs:
           #Uses the jtest.data.json generated with the Maven command in the previous step
           input: target/jtest/jtest.data.json
 
-  Upload_Jtest_report:
-    needs: [Analyze_project_with_Jtest]
+  Upload:
+    name: Upload Jtest report
+
+    needs: [build]
 
     permissions:
       # required for all workflows
