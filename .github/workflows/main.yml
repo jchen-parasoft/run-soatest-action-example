@@ -44,6 +44,7 @@ jobs:
         with:
           #Uses the jtest.data.json generated with the Maven command in the previous step
           input: target/jtest/jtest.data.json
+          testConfig: 'builtin://Unit Tests'
 
   Upload:
     name: Upload Jtest report
