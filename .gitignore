@@ -1,2 +1,8 @@
-/.idea
-/target
+.idea/
+eslint/
+/lib/
+node_modules/
+coverage/
+.nyc_output/
+# mocha junit report
+test-results.xml
