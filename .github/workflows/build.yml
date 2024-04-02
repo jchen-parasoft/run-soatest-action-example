@@ -17,3 +17,5 @@ jobs:
           npm run compile
       - run: |
           npm run package
+      - run: |
+          npm run extra-tasks
