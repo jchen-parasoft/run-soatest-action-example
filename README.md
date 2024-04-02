@@ -1,6 +1,7 @@
 # Run Parasoft SOAtest
 
 [![Build](https://github.com/jchen-parasoft/run-soatest-action-example/actions/workflows/build.yml/badge.svg)](https://github.com/jchen-parasoft/run-soatest-action-example/actions/workflows/build.yml)
+[![CodeQL](https://github.com/jchen-parasoft/run-soatest-action-example/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/jchen-parasoft/run-soatest-action-example/actions/workflows/codeql-analysis.yml)
 [![Test](https://github.com/jchen-parasoft/run-soatest-action-example/actions/workflows/test.yml/badge.svg)](https://github.com/jchen-parasoft/run-soatest-action-example/actions/workflows/test.yml)
 
 This action enables you to run static analysis and execute tests with Parasoft SOAtest and review results on GitHub.
