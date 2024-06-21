@@ -78,8 +78,8 @@ By default, the `convertReportToXUnit` parameter is set to true. This action gen
 - Upload the XML report to GitHub as an artifact.
 - Publish the results with another action which reads the converted xUnit report to review the results on GitHub. We recommend using `Publish Test Results` and `Test Reporter` to publish the results to GitHub.
 
-#### Examples
 #### Upload the reports to GitHub as an artifact
+Example
 ```yaml
 - name: Upload report artifact
   uses: actions/upload-artifact@v4
@@ -90,7 +90,7 @@ By default, the `convertReportToXUnit` parameter is set to true. This action gen
 
 #### Publish Test Results
 Prerequisites
-- Require a Python3 environment to be setup on the action runner. See [Running as a non-Docker action](https://github.com/marketplace/actions/publish-test-results#running-as-a-non-docker-action) for details.
+- A Python3 environment needs to be set up on the action runner if Docker is not provided. See [Running as a non-Docker action](https://github.com/marketplace/actions/publish-test-results#running-as-a-non-docker-action) for details.
 
 Example
 ```yaml
@@ -115,7 +115,6 @@ jobs:
           reports/report-xunit.xml
 ```
 See [Publish Test Results](https://github.com/marketplace/actions/publish-test-results) for details.
-<br>
 
 #### Test Reporter
 Example
@@ -138,8 +137,7 @@ jobs:
         with:
           name: 'xUnit Tests'                # Name of the check run which will be created
           path: 'reports/report-xunit.xml'   # Path to test results
-          reporter: 'swift-xunit'            # Format of test results
-          fail-on-error: 'false'             # Set action as failed if test report contains any failed test
+          reporter: 'java-junit'             # Format of test results
 ```
 See [Test Reporter](https://github.com/marketplace/actions/test-reporter) for details.
 
